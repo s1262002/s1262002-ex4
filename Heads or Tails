@@ -19,5 +19,9 @@ int main()
         }
     }
     printf("Heads: %d, Tails: %d\n", h, t);
+    
+    if(head < tail) printf("You lost");
+    else printf("You won");
+    
     return 0;
 }
